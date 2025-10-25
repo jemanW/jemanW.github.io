@@ -3,11 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Webpage</title>
+    <title>Group Theory Overview</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is a simple HTML webpage.</p>
-    <a href="#">Click Here</a>
+    <h1>Introduction to Group Theory</h1>
+    <p>Group theory is a branch of mathematics that studies the algebraic structures known as groups. A group is a set equipped with a binary operation that satisfies four fundamental properties:</p>
+    
+    <h2>Group Properties</h2>
+    <ul>
+        <li><strong>Closure:</strong> For any two elements $a$ and $b$ in the group $G$, the result of the operation $a * b$ is also in $G$.</li>
+        <li><strong>Associativity:</strong> For any three elements $a$, $b$, and $c$ in $G$, $(a * b) * c = a * (b * c)$.</li>
+        <li><strong>Identity Element:</strong> There exists an element $e$ in $G$ such that for every element $a$ in $G$, $e * a = a * e = a$.</li>
+        <li><strong>Inverse Element:</strong> For each element $a$ in $G$, there exists an element $b$ in $G$ such that $a * b = b * a = e$.</li>
+    </ul>
+
+    <h2>Examples of Groups</h2>
+    <p>Common examples of groups include:</p>
+    <ul>
+        <li>The set of integers under addition $(\mathbb{Z}, +)$</li>
+        <li>The set of non-zero rational numbers under multiplication $(\mathbb{Q}^*, \cdot)$</li>
+        <li>The group of rotations in three-dimensional space.</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>Understanding groups is fundamental in various areas of mathematics, including algebra, geometry, and number theory.</p>
 </body>
 </html>
