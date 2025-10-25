@@ -24,26 +24,12 @@
     </style>
 </head>
 <body>
-    <h1>Introduction to Group Theory</h1>
-    <p>Group theory is a branch of mathematics that studies the algebraic structures known as groups. A group is a set equipped with a binary operation that satisfies four fundamental properties:</p>
-    
-    <h2>Group Properties</h2>
-    <ul>
-        <li><strong>Closure:</strong> For any two elements $a$ and $b$ in the group $G$, the result of the operation $a * b$ is also in $G$.</li>
-        <li><strong>Associativity:</strong> For any three elements $a$, $b$, and $c$ in $G$, $(a * b) * c = a * (b * c)$.</li>
-        <li><strong>Identity Element:</strong> There exists an element $e$ in $G$ such that for every element $a$ in $G$, $e * a = a * e = a$.</li>
-        <li><strong>Inverse Element:</strong> For each element $a$ in $G$, there exists an element $b$ in $G$ such that $a * b = b * a = e$.</li>
-    </ul>
-
-    <h2>Examples of Groups</h2>
-    <p>Common examples of groups include:</p>
-    <ul>
-        <li>The set of integers under addition $(\mathbb{Z}, +)$</li>
-        <li>The set of non-zero rational numbers under multiplication $(\mathbb{Q}^*, \cdot)$</li>
-        <li>The group of rotations in three-dimensional space.</li>
-    </ul>
-
-    <h2>Conclusion</h2>
-    <p>Understanding groups is fundamental in various areas of mathematics, including algebra, geometry, and number theory.</p>
+     <h1>Group axioms</h1>
+    <div class="latex">
+$$ \forall a, b \in G, \exists c \in G \text{ s.t. } a \cdot b = c $$
+$$ \forall a, b, c \in G, (a \cdot b) \cdot c = a \cdot (b \cdot c) $$
+$$ \exists e \in G \text{ s.t. } \forall a \in G, e \cdot a = a \cdot e = a $$
+$$ \forall a \in G, \exists b \in G \text{ s.t. } a \cdot b = b \cdot a = e $$
+    </div>
 </body>
 </html>
